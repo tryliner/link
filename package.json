@@ -1,0 +1,22 @@
+{
+  "name": "@tryliner/link",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "share-link redirector for link.tryliner.fun: validates ids and bounces to the liner:// deeplink. runs as a cloudflare worker, node runner kept for local testing",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "wrangler dev --port 1193",
+    "deploy": "wrangler deploy",
+    "test": "node --test share.test.mjs open.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "hono": "4.13.7"
+  },
+  "devDependencies": {
+    "wrangler": "4.130.0"
+  }
+}
