@@ -1,0 +1,28 @@
+{
+  "responseContext": { "visitorData": "CgtUZXN0VmlzaXRvcg%3D%3D" },
+  "header": {
+    "musicVisualHeaderRenderer": {
+      "title": { "runs": [{ "text": "Cave & Echo" }] },
+      "subtitle": { "runs": [{ "text": "Artist" }, { "text": " • " }, { "text": "3.4K monthly audience" }] },
+      "thumbnail": {
+        "musicThumbnailRenderer": {
+          "thumbnail": {
+            "thumbnails": [
+              { "url": "https://lh3.googleusercontent.com/banner-art=w1440-h600-p-l90-rj", "width": 1440, "height": 600 }
+            ]
+          }
+        }
+      },
+      "foregroundThumbnail": {
+        "musicThumbnailRenderer": {
+          "thumbnail": {
+            "thumbnails": [
+              { "url": "https://yt3.ggpht.com/avatar-art=s88-c-k-c0x00ffffff-no-rj-mo", "width": 88, "height": 88 },
+              { "url": "https://yt3.ggpht.com/avatar-art=s176-c-k-c0x00ffffff-no-rj-mo", "width": 176, "height": 176 }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

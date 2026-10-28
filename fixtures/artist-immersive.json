@@ -1,0 +1,75 @@
+{
+  "responseContext": { "visitorData": "CgtUZXN0VmlzaXRvcg%3D%3D" },
+  "contents": {
+    "singleColumnBrowseResultsRenderer": {
+      "tabs": [
+        {
+          "tabRenderer": {
+            "content": {
+              "sectionListRenderer": {
+                "contents": [
+                  {
+                    "musicShelfRenderer": {
+                      "title": { "runs": [{ "text": "Top songs" }] },
+                      "contents": [
+                        {
+                          "musicResponsiveListItemRenderer": {
+                            "thumbnail": {
+                              "musicThumbnailRenderer": {
+                                "thumbnail": {
+                                  "thumbnails": [
+                                    { "url": "https://lh3.googleusercontent.com/song-art=w60-h60-l90-rj", "width": 60, "height": 60 }
+                                  ]
+                                }
+                              }
+                            },
+                            "flexColumns": [
+                              { "musicResponsiveListItemFlexColumnRenderer": { "text": { "runs": [{ "text": "First Song" }] } } }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "header": {
+    "musicImmersiveHeaderRenderer": {
+      "title": { "runs": [{ "text": "Test Artist" }] },
+      "thumbnail": {
+        "musicThumbnailRenderer": {
+          "thumbnail": {
+            "thumbnails": [
+              { "url": "https://lh3.googleusercontent.com/banner-art=w540-h225-p-l90-rj", "width": 540, "height": 225 },
+              { "url": "https://lh3.googleusercontent.com/banner-art=w1440-h600-p-l90-rj", "width": 1440, "height": 600 }
+            ]
+          }
+        }
+      },
+      "subscriptionButton": {
+        "subscribeButtonRenderer": {
+          "channelId": "UCGtGpOIGHfRu1KYL9pi-mNQ",
+          "subscriberCountText": { "runs": [{ "text": "845K" }] }
+        }
+      },
+      "monthlyListenerCount": { "runs": [{ "text": "1.2M monthly audience" }] }
+    }
+  },
+  "microformat": {
+    "microformatDataRenderer": {
+      "urlCanonical": "https://music.youtube.com/channel/UCGtGpOIGHfRu1KYL9pi-mNQ",
+      "title": "Test Artist",
+      "thumbnail": {
+        "thumbnails": [
+          { "url": "https://lh3.googleusercontent.com/avatar-art=w544-h544-l90-rj", "width": 544, "height": 544 }
+        ]
+      }
+    }
+  }
+}

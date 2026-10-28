@@ -8,7 +8,7 @@
     "start": "node server.mjs",
     "dev": "wrangler dev --port 1193",
     "deploy": "wrangler deploy",
-    "test": "node --test share.test.mjs open.test.mjs"
+    "test": "node --test share.test.mjs open.test.mjs meta.test.mjs yt.test.mjs meta/playlist.test.mjs meta/artist.test.mjs meta/track.test.mjs"
   },
   "engines": {
     "node": ">=20"

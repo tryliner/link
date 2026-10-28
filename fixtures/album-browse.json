@@ -1,0 +1,398 @@
+{
+  "responseContext": {"visitorData": "CgtUZXN0VmlzaXRvcg%3D%3D"},
+  "contents": {
+    "twoColumnBrowseResultsRenderer": {
+      "tabs": [
+        {
+          "tabRenderer": {
+            "content": {
+              "sectionListRenderer": {
+                "contents": [
+                  {
+                    "musicResponsiveHeaderRenderer": {
+                      "thumbnail": {
+                        "musicThumbnailRenderer": {
+                          "thumbnail": {
+                            "thumbnails": [
+                              {
+                                "url": "https://lh3.googleusercontent.com/afterglow-art=w226-h226-l90-rj",
+                                "width": 226,
+                                "height": 226
+                              },
+                              {
+                                "url": "https://lh3.googleusercontent.com/afterglow-art=w544-h544-l90-rj",
+                                "width": 544,
+                                "height": 544
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "title": {"runs": [{"text": "Afterglow"}]},
+                      "subtitle": {"runs": [{"text": "Album"}, {"text": " • "}, {"text": "2025"}]},
+                      "straplineTextOne": {
+                        "runs": [
+                          {
+                            "text": "Mara Vale",
+                            "navigationEndpoint": {
+                              "browseEndpoint": {
+                                "browseId": "UCmaravale0000000000000a",
+                                "browseEndpointContextSupportedConfigs": {
+                                  "browseEndpointContextMusicConfig": {"pageType": "MUSIC_PAGE_TYPE_ARTIST"}
+                                }
+                              }
+                            }
+                          },
+                          {"text": " & "},
+                          {
+                            "text": "Neon Coast",
+                            "navigationEndpoint": {
+                              "browseEndpoint": {
+                                "browseId": "UCneoncoast000000000000a",
+                                "browseEndpointContextSupportedConfigs": {
+                                  "browseEndpointContextMusicConfig": {"pageType": "MUSIC_PAGE_TYPE_ARTIST"}
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "secondSubtitle": {"runs": [{"text": "9 songs"}, {"text": " • "}, {"text": "34 minutes"}]}
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "secondaryContents": {
+        "sectionListRenderer": {
+          "contents": [
+            {
+              "musicShelfRenderer": {
+                "contents": [
+                  {
+                    "musicResponsiveListItemRenderer": {
+                      "flexColumns": [
+                        {
+                          "musicResponsiveListItemFlexColumnRenderer": {
+                            "text": {
+                              "runs": [
+                                {
+                                  "text": "Harbor Lights",
+                                  "navigationEndpoint": {
+                                    "watchEndpoint": {
+                                      "videoId": "bbbbbbbbbb1",
+                                      "playlistId": "OLAK5uy_afterglow000000000000000000000000"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        {"musicResponsiveListItemFlexColumnRenderer": {"text": {}}},
+                        {
+                          "musicResponsiveListItemFlexColumnRenderer": {"text": {"runs": [{"text": "1.2M plays"}]}}
+                        }
+                      ],
+                      "fixedColumns": [
+                        {
+                          "musicResponsiveListItemFixedColumnRenderer": {"text": {"runs": [{"text": "3:41"}]}}
+                        }
+                      ],
+                      "playlistItemData": {"videoId": "bbbbbbbbbb1"}
+                    }
+                  },
+                  {
+                    "musicResponsiveListItemRenderer": {
+                      "flexColumns": [
+                        {
+                          "musicResponsiveListItemFlexColumnRenderer": {
+                            "text": {
+                              "runs": [
+                                {
+                                  "text": "Night Drive",
+                                  "navigationEndpoint": {
+                                    "watchEndpoint": {
+                                      "videoId": "bbbbbbbbbb2",
+                                      "playlistId": "OLAK5uy_afterglow000000000000000000000000"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "musicResponsiveListItemFlexColumnRenderer": {
+                            "text": {
+                              "runs": [
+                                {
+                                  "text": "Neon Coast",
+                                  "navigationEndpoint": {
+                                    "browseEndpoint": {
+                                      "browseId": "UCneoncoast000000000000a",
+                                      "browseEndpointContextSupportedConfigs": {
+                                        "browseEndpointContextMusicConfig": {"pageType": "MUSIC_PAGE_TYPE_ARTIST"}
+                                      }
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "musicResponsiveListItemFlexColumnRenderer": {"text": {"runs": [{"text": "860K plays"}]}}
+                        }
+                      ],
+                      "fixedColumns": [
+                        {
+                          "musicResponsiveListItemFixedColumnRenderer": {"text": {"runs": [{"text": "4:05"}]}}
+                        }
+                      ],
+                      "playlistItemData": {"videoId": "bbbbbbbbbb2"}
+                    }
+                  },
+                  {
+                    "musicResponsiveListItemRenderer": {
+                      "flexColumns": [
+                        {
+                          "musicResponsiveListItemFlexColumnRenderer": {
+                            "text": {
+                              "runs": [
+                                {
+                                  "text": "Low Tide",
+                                  "navigationEndpoint": {
+                                    "watchEndpoint": {
+                                      "videoId": "bbbbbbbbbb3",
+                                      "playlistId": "OLAK5uy_afterglow000000000000000000000000"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        {"musicResponsiveListItemFlexColumnRenderer": {"text": {}}},
+                        {
+                          "musicResponsiveListItemFlexColumnRenderer": {"text": {"runs": [{"text": "402K plays"}]}}
+                        }
+                      ],
+                      "fixedColumns": [
+                        {
+                          "musicResponsiveListItemFixedColumnRenderer": {"text": {"runs": [{"text": "2:58"}]}}
+                        }
+                      ],
+                      "playlistItemData": {"videoId": "bbbbbbbbbb3"}
+                    }
+                  },
+                  {
+                    "musicResponsiveListItemRenderer": {
+                      "flexColumns": [
+                        {
+                          "musicResponsiveListItemFlexColumnRenderer": {
+                            "text": {
+                              "runs": [
+                                {
+                                  "text": "Undertow",
+                                  "navigationEndpoint": {
+                                    "watchEndpoint": {
+                                      "videoId": "bbbbbbbbbb4",
+                                      "playlistId": "OLAK5uy_afterglow000000000000000000000000"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        {"musicResponsiveListItemFlexColumnRenderer": {"text": {}}},
+                        {
+                          "musicResponsiveListItemFlexColumnRenderer": {"text": {"runs": [{"text": "311K plays"}]}}
+                        }
+                      ],
+                      "fixedColumns": [
+                        {
+                          "musicResponsiveListItemFixedColumnRenderer": {"text": {"runs": [{"text": "3:20"}]}}
+                        }
+                      ],
+                      "playlistItemData": {"videoId": "bbbbbbbbbb4"}
+                    }
+                  },
+                  {
+                    "musicResponsiveListItemRenderer": {
+                      "flexColumns": [
+                        {
+                          "musicResponsiveListItemFlexColumnRenderer": {
+                            "text": {
+                              "runs": [
+                                {
+                                  "text": "Salt & Static",
+                                  "navigationEndpoint": {
+                                    "watchEndpoint": {
+                                      "videoId": "bbbbbbbbbb5",
+                                      "playlistId": "OLAK5uy_afterglow000000000000000000000000"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        {"musicResponsiveListItemFlexColumnRenderer": {"text": {}}},
+                        {
+                          "musicResponsiveListItemFlexColumnRenderer": {"text": {"runs": [{"text": "290K plays"}]}}
+                        }
+                      ],
+                      "fixedColumns": [
+                        {
+                          "musicResponsiveListItemFixedColumnRenderer": {"text": {"runs": [{"text": "3:47"}]}}
+                        }
+                      ],
+                      "playlistItemData": {"videoId": "bbbbbbbbbb5"}
+                    }
+                  },
+                  {
+                    "musicResponsiveListItemRenderer": {
+                      "flexColumns": [
+                        {
+                          "musicResponsiveListItemFlexColumnRenderer": {
+                            "text": {
+                              "runs": [
+                                {
+                                  "text": "Lighthouse",
+                                  "navigationEndpoint": {
+                                    "watchEndpoint": {
+                                      "videoId": "bbbbbbbbbb6",
+                                      "playlistId": "OLAK5uy_afterglow000000000000000000000000"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        {"musicResponsiveListItemFlexColumnRenderer": {"text": {}}},
+                        {
+                          "musicResponsiveListItemFlexColumnRenderer": {"text": {"runs": [{"text": "254K plays"}]}}
+                        }
+                      ],
+                      "fixedColumns": [
+                        {
+                          "musicResponsiveListItemFixedColumnRenderer": {"text": {"runs": [{"text": "4:12"}]}}
+                        }
+                      ],
+                      "playlistItemData": {"videoId": "bbbbbbbbbb6"}
+                    }
+                  },
+                  {
+                    "musicResponsiveListItemRenderer": {
+                      "flexColumns": [
+                        {
+                          "musicResponsiveListItemFlexColumnRenderer": {
+                            "text": {
+                              "runs": [
+                                {
+                                  "text": "Afterglow",
+                                  "navigationEndpoint": {
+                                    "watchEndpoint": {
+                                      "videoId": "bbbbbbbbbb7",
+                                      "playlistId": "OLAK5uy_afterglow000000000000000000000000"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        {"musicResponsiveListItemFlexColumnRenderer": {"text": {}}},
+                        {
+                          "musicResponsiveListItemFlexColumnRenderer": {"text": {"runs": [{"text": "1.9M plays"}]}}
+                        }
+                      ],
+                      "fixedColumns": [
+                        {
+                          "musicResponsiveListItemFixedColumnRenderer": {"text": {"runs": [{"text": "5:01"}]}}
+                        }
+                      ],
+                      "playlistItemData": {"videoId": "bbbbbbbbbb7"}
+                    }
+                  },
+                  {
+                    "musicResponsiveListItemRenderer": {
+                      "flexColumns": [
+                        {
+                          "musicResponsiveListItemFlexColumnRenderer": {
+                            "text": {
+                              "runs": [
+                                {
+                                  "text": "Shoreline",
+                                  "navigationEndpoint": {
+                                    "watchEndpoint": {
+                                      "videoId": "bbbbbbbbbb8",
+                                      "playlistId": "OLAK5uy_afterglow000000000000000000000000"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        {"musicResponsiveListItemFlexColumnRenderer": {"text": {}}},
+                        {
+                          "musicResponsiveListItemFlexColumnRenderer": {"text": {"runs": [{"text": "198K plays"}]}}
+                        }
+                      ],
+                      "fixedColumns": [
+                        {
+                          "musicResponsiveListItemFixedColumnRenderer": {"text": {"runs": [{"text": "3:05"}]}}
+                        }
+                      ],
+                      "playlistItemData": {"videoId": "bbbbbbbbbb8"}
+                    }
+                  },
+                  {
+                    "musicResponsiveListItemRenderer": {
+                      "flexColumns": [
+                        {
+                          "musicResponsiveListItemFlexColumnRenderer": {
+                            "text": {
+                              "runs": [
+                                {
+                                  "text": "Last Ferry",
+                                  "navigationEndpoint": {
+                                    "watchEndpoint": {
+                                      "videoId": "bbbbbbbbbb9",
+                                      "playlistId": "OLAK5uy_afterglow000000000000000000000000"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        {"musicResponsiveListItemFlexColumnRenderer": {"text": {}}},
+                        {
+                          "musicResponsiveListItemFlexColumnRenderer": {"text": {"runs": [{"text": "176K plays"}]}}
+                        }
+                      ],
+                      "fixedColumns": [
+                        {
+                          "musicResponsiveListItemFixedColumnRenderer": {"text": {"runs": [{"text": "4:31"}]}}
+                        }
+                      ],
+                      "playlistItemData": {"videoId": "bbbbbbbbbb9"}
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

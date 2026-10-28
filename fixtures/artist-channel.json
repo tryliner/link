@@ -1,0 +1,58 @@
+{
+  "responseContext": {},
+  "header": {
+    "pageHeaderRenderer": {
+      "pageTitle": "Test Artist",
+      "content": {
+        "pageHeaderViewModel": {
+          "image": {
+            "decoratedAvatarViewModel": {
+              "avatar": {
+                "avatarViewModel": {
+                  "image": {
+                    "sources": [
+                      { "url": "https://yt3.googleusercontent.com/channel-avatar=s72-c-k-c0x00ffffff-no-rj", "width": 72, "height": 72 },
+                      { "url": "https://yt3.googleusercontent.com/channel-avatar=s160-c-k-c0x00ffffff-no-rj", "width": 160, "height": 160 }
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "banner": {
+            "imageBannerViewModel": {
+              "image": {
+                "sources": [
+                  { "url": "https://yt3.googleusercontent.com/channel-banner=w2120-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj", "width": 2120, "height": 351 }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "metadata": {
+    "channelMetadataRenderer": {
+      "title": "Test Artist",
+      "externalId": "UCGtGpOIGHfRu1KYL9pi-mNQ",
+      "avatar": {
+        "thumbnails": [
+          { "url": "https://yt3.googleusercontent.com/channel-avatar=s900-c-k-c0x00ffffff-no-rj", "width": 900, "height": 900 }
+        ]
+      },
+      "isFamilySafe": true
+    }
+  },
+  "microformat": {
+    "microformatDataRenderer": {
+      "urlCanonical": "https://www.youtube.com/channel/UCGtGpOIGHfRu1KYL9pi-mNQ",
+      "title": "Test Artist",
+      "thumbnail": {
+        "thumbnails": [
+          { "url": "https://yt3.googleusercontent.com/channel-avatar=s200-c-k-c0x00ffffff-no-rj?days_since_epoch=20389", "width": 200, "height": 200 }
+        ]
+      }
+    }
+  }
+}

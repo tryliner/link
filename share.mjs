@@ -3,6 +3,9 @@
 
 export const DEEP_SCHEME = 'liner';
 
+// public origin of the share links, used for canonical urls inside previews
+export const PUBLIC_ORIGIN = 'https://link.tryliner.fun';
+
 // strict allowlist: only these paths exist, everything else 404s.
 // id patterns only permit opaque catalog tokens (no urls, slashes, quotes,
 // spaces or scheme breaks), so a pentester can't smuggle arbitrary data through.
@@ -40,6 +43,12 @@ export function resolveShare(pathname, params) {
 // even if a pattern is ever loosened
 export function deeplink(type, id) {
   return `${DEEP_SCHEME}://${type}?id=${encodeURIComponent(id)}`;
+}
+
+// canonical public share link for a validated id, undefined for anything else
+export function shareUrl(type, id) {
+  const share = resolveShare(`/${type}`, new URLSearchParams({ id: String(id ?? '') }));
+  return share ? `${PUBLIC_ORIGIN}/${share.type}?id=${encodeURIComponent(share.id)}` : undefined;
 }
 
 // escape for html attribute context, belt and suspenders on top of validation

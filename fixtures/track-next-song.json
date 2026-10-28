@@ -1,0 +1,193 @@
+{
+  "responseContext": {
+    "visitorData": "CgtGaXh0dXJlRGF0YQ%3D%3D"
+  },
+  "contents": {
+    "singleColumnMusicWatchNextResultsRenderer": {
+      "tabbedRenderer": {
+        "watchNextTabbedResultsRenderer": {
+          "tabs": [
+            {
+              "tabRenderer": {
+                "title": "Up next",
+                "content": {
+                  "musicQueueRenderer": {
+                    "content": {
+                      "playlistPanelRenderer": {
+                        "contents": [
+                          {
+                            "playlistPanelVideoWrapperRenderer": {
+                              "primaryRenderer": {
+                                "playlistPanelVideoRenderer": {
+                                  "title": { "runs": [{ "text": "Night Drive" }] },
+                                  "longBylineText": {
+                                    "runs": [
+                                      {
+                                        "text": "Neon Coast",
+                                        "navigationEndpoint": {
+                                          "clickTrackingParams": "fixture",
+                                          "browseEndpoint": {
+                                            "browseId": "UCGtGpOIGHfRu1KYL9pi-mNQ",
+                                            "browseEndpointContextSupportedConfigs": {
+                                              "browseEndpointContextMusicConfig": { "pageType": "MUSIC_PAGE_TYPE_ARTIST" }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      { "text": " & " },
+                                      {
+                                        "text": "Mara Vale",
+                                        "navigationEndpoint": {
+                                          "clickTrackingParams": "fixture",
+                                          "browseEndpoint": {
+                                            "browseId": "UCmaraVale000000000000aa",
+                                            "browseEndpointContextSupportedConfigs": {
+                                              "browseEndpointContextMusicConfig": { "pageType": "MUSIC_PAGE_TYPE_ARTIST" }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      { "text": " • " },
+                                      {
+                                        "text": "Afterglow",
+                                        "navigationEndpoint": {
+                                          "clickTrackingParams": "fixture",
+                                          "browseEndpoint": {
+                                            "browseId": "MPREb_xCxkOKReFZv",
+                                            "browseEndpointContextSupportedConfigs": {
+                                              "browseEndpointContextMusicConfig": { "pageType": "MUSIC_PAGE_TYPE_ALBUM" }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      { "text": " • " },
+                                      { "text": "2024" }
+                                    ]
+                                  },
+                                  "shortBylineText": { "runs": [{ "text": "Neon Coast" }] },
+                                  "thumbnail": {
+                                    "thumbnails": [
+                                      { "url": "https://lh3.googleusercontent.com/fixture-cover=w60-h60-l90-rj", "width": 60, "height": 60 },
+                                      { "url": "https://lh3.googleusercontent.com/fixture-cover=w120-h120-l90-rj", "width": 120, "height": 120 },
+                                      { "url": "https://lh3.googleusercontent.com/fixture-cover=w180-h180-l90-rj", "width": 180, "height": 180 },
+                                      { "url": "https://lh3.googleusercontent.com/fixture-cover=w226-h226-l90-rj", "width": 226, "height": 226 },
+                                      { "url": "https://lh3.googleusercontent.com/fixture-cover=w302-h302-l90-rj", "width": 302, "height": 302 },
+                                      { "url": "https://lh3.googleusercontent.com/fixture-cover=w544-h544-l90-rj", "width": 544, "height": 544 }
+                                    ]
+                                  },
+                                  "lengthText": {
+                                    "runs": [{ "text": "3:41" }],
+                                    "accessibility": { "accessibilityData": { "label": "3 minutes, 41 seconds" } }
+                                  },
+                                  "selected": true,
+                                  "videoId": "RGdkabupfPI",
+                                  "navigationEndpoint": {
+                                    "watchEndpoint": {
+                                      "videoId": "RGdkabupfPI",
+                                      "watchEndpointMusicSupportedConfigs": {
+                                        "watchEndpointMusicConfig": { "musicVideoType": "MUSIC_VIDEO_TYPE_ATV" }
+                                      }
+                                    }
+                                  },
+                                  "canReorder": false
+                                }
+                              },
+                              "counterpart": [
+                                {
+                                  "counterpartRenderer": {
+                                    "playlistPanelVideoRenderer": {
+                                      "title": { "runs": [{ "text": "Night Drive (Official Video)" }] },
+                                      "longBylineText": {
+                                        "runs": [
+                                          {
+                                            "text": "Neon Coast",
+                                            "navigationEndpoint": {
+                                              "clickTrackingParams": "fixture",
+                                              "browseEndpoint": {
+                                                "browseId": "UCGtGpOIGHfRu1KYL9pi-mNQ",
+                                                "browseEndpointContextSupportedConfigs": {
+                                                  "browseEndpointContextMusicConfig": { "pageType": "MUSIC_PAGE_TYPE_ARTIST" }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          { "text": " • " },
+                                          { "text": "2.1M views" }
+                                        ]
+                                      },
+                                      "thumbnail": {
+                                        "thumbnails": [
+                                          { "url": "https://i.ytimg.com/vi/nightDrive1/sddefault.jpg?sqp=fixture-small", "width": 400, "height": 225 },
+                                          { "url": "https://i.ytimg.com/vi/nightDrive1/hq720.jpg?sqp=fixture-large", "width": 1280, "height": 720 }
+                                        ]
+                                      },
+                                      "lengthText": {
+                                        "runs": [{ "text": "3:58" }],
+                                        "accessibility": { "accessibilityData": { "label": "3 minutes, 58 seconds" } }
+                                      },
+                                      "selected": false,
+                                      "videoId": "nightDrive1",
+                                      "navigationEndpoint": {
+                                        "watchEndpoint": {
+                                          "videoId": "nightDrive1",
+                                          "watchEndpointMusicSupportedConfigs": {
+                                            "watchEndpointMusicConfig": { "musicVideoType": "MUSIC_VIDEO_TYPE_OMV" }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "segmentMap": {}
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "playlistPanelVideoRenderer": {
+                              "title": { "runs": [{ "text": "Coastline" }] },
+                              "longBylineText": {
+                                "runs": [
+                                  {
+                                    "text": "Mara Vale",
+                                    "navigationEndpoint": {
+                                      "clickTrackingParams": "fixture",
+                                      "browseEndpoint": {
+                                        "browseId": "UCmaraVale000000000000aa",
+                                        "browseEndpointContextSupportedConfigs": {
+                                          "browseEndpointContextMusicConfig": { "pageType": "MUSIC_PAGE_TYPE_ARTIST" }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  { "text": " • " },
+                                  { "text": "Coastline" },
+                                  { "text": " • " },
+                                  { "text": "2023" }
+                                ]
+                              },
+                              "thumbnail": {
+                                "thumbnails": [
+                                  { "url": "https://yt3.ggpht.com/fixture-single=s120", "width": 120, "height": 120 }
+                                ]
+                              },
+                              "lengthText": { "runs": [{ "text": "1:02:03" }] },
+                              "selected": false,
+                              "videoId": "radioNext01"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            { "tabRenderer": { "title": "Lyrics", "unselectable": true } },
+            { "tabRenderer": { "title": "Related" } }
+          ]
+        }
+      }
+    }
+  },
+  "currentVideoEndpoint": { "watchEndpoint": { "videoId": "RGdkabupfPI" } }
+}
