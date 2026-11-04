@@ -2,9 +2,21 @@
 // zero framework magic: strict routes, validated ids, metadata-enriched pages.
 import { Hono } from 'hono';
 import { resolveShare, deeplink } from './share.mjs';
-import { renderOpenPage, renderErrorPage, renderLanding } from './page.mjs';
+import { renderOpenPage, renderErrorPage } from './page.mjs';
 
 const MAX_URL_CHARS = 2048;
+
+const RU_SITE = 'https://tryliner.fun/ru/';
+const UA_SITE = 'https://tryliner.tech/uk/';
+const EU_SITE = 'https://tryliner.tech/';
+const RU_REGION = new Set(['RU', 'BY']);
+
+export function siteFor(country) {
+  const code = String(country ?? '').toUpperCase();
+  if (RU_REGION.has(code)) return RU_SITE;
+  if (code === 'UA') return UA_SITE;
+  return EU_SITE;
+}
 
 const BAD_LINK = renderErrorPage('Invalid link', 'This share link is broken or expired.');
 const NOT_FOUND = renderErrorPage('Not found', 'Nothing lives at this address.');
@@ -33,7 +45,11 @@ export function createApp() {
     await next();
   });
 
-  app.get('/', (c) => c.html(renderLanding(), 200, { 'cache-control': 'public, max-age=300' }));
+  app.get('/', (c) => {
+    const country = c.req.raw.cf?.country ?? c.req.header('cf-ipcountry');
+    c.header('cache-control', 'private, no-store');
+    return c.redirect(siteFor(country), 302);
+  });
 
   app.get('/health', (c) => c.text('ok'));
 

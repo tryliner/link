@@ -45,6 +45,22 @@ test('bad ids and routes get static errors without reflection', async () => {
   assert.equal(health.status, 200);
   assert.equal(await health.text(), 'ok');
 
-  const root = await get('/');
-  assert.equal(root.status, 200);
+});
+
+test('root sends each region to its own site', async () => {
+  const cases = [
+    ['RU', 'https://tryliner.fun/ru/'],
+    ['BY', 'https://tryliner.fun/ru/'],
+    ['UA', 'https://tryliner.tech/uk/'],
+    ['PL', 'https://tryliner.tech/'],
+    ['US', 'https://tryliner.tech/'],
+    [null, 'https://tryliner.tech/'],
+  ];
+  for (const [country, location] of cases) {
+    const headers = country ? { 'cf-ipcountry': country } : {};
+    const res = await app.request('/', { headers });
+    assert.equal(res.status, 302, String(country));
+    assert.equal(res.headers.get('location'), location, String(country));
+    assert.equal(res.headers.get('cache-control'), 'private, no-store');
+  }
 });
